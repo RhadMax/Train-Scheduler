@@ -1,0 +1,49 @@
+Required:
+When adding trains, administrators should be able to submit the following:
+Train Name
+Destination 
+First Train Time -- in military time
+Frequency -- in minutes
+Code this app to calculate when the next train will arrive; this should be relative to the current time.
+Users from many different machines must be able to view same train times.
+Styling and theme are completely up to you. Get Creative!
+
+
+Bonus:
+Consider updating your "minutes to arrival" and "next train time" text once every minute. This is significantly more challenging; only attempt this if you've completed the actual activity and committed it somewhere on GitHub for safekeeping (and maybe create a second GitHub repo).
+Try adding update and remove buttons for each train. Let the user edit the row's elements-- allow them to change a train's Name, Destination and Arrival Time (and then, by relation, minutes to arrival).
+As a final challenge, make it so that only users who log into the site with their Google or GitHub accounts can use your site. You'll need to read up on Firebase authentication for this bonus exercise.
+
+
+Whiteboarding steps to complete:
+
+<!-- Make up page layout using html elements with bootstrap classes; jumbotron, two cards with forms in each, one for a table on top and another with the input fields below.
+
+Assign classes/ID's to the html for targetting purposes.
+
+Ensure links are set for style.css, app.js, bootstrap, jQuery, momentJS and firebase-->
+
+In JS, 
+//initialize firebase database
+
+//declare variable for database
+
+//create functions for running time calculations
+
+//write block for on click event with submit button
+    //get data from input fields and store in variables
+
+    //push those variables to firebase
+
+    //clear input fields
+
+//write block for .on(child_added) for firebase
+
+    //run calculations for dynamic data variables (next arrival and next train eta)
+
+    //create table row with jQuery
+
+        //append table data pieces to table row with jQuery using firebase data 
+
+    //append table row to table body in html using jQuery
+
