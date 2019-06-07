@@ -1,13 +1,29 @@
 body {
-    background-color:rgba(244, 165, 96, 0.61)
+    background-image: url("../images/tracks2.jpg");
+}
+
+.card {
+    background-color:rgba(244, 165, 96, 0.774)
 }
 
 .card-header, .jumbotron {
-    background-color: rgba(100, 148, 237, 0.753);
+    background-color: rgba(100, 148, 237, 0.829);
     font-weight: bolder;
-    text-shadow:
-    1px 1px white;
+    
+
     font-size: 21px;
+}
+
+.jumbotron {
+    text-shadow:
+    -2px -2px whitesmoke,
+    -2px 2px whitesmoke,
+    2px -2px whitesmoke,
+    2px 2px whitesmoke;
+    background-image: url("../images/train.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -350px;
 }
 
 h1 {
